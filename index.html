@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Portfolio website complete</title>
     </head>
@@ -41,7 +42,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Olá,<br>Eu sou o <span class="home__title-color">Lucas</span><br>Desenvolvedor Web</h1>
 
-                    <a href="http://beacons.ai/lucascruz772" class="button">Contatos</a>
+                    <a href="http://beacons.ai/lucascruz772" target="_blank" class="button">Contatos</a>
                 </div>
 
                 <div class="home__social">
@@ -73,9 +74,10 @@
                     
                     <div>
                         <h2 class="about__subtitle">Eu sou o Lucas</h2>
-                        <p class="about__text">Com 3 anos de experiencia em TI, trabalhei como Help Desk, agora, almejo trabalhar com
+                        <p class="about__text">Possuo 3 anos de experiencia em TI, trabalhando como Help Desk e com testes funcionais. Agora almejo trabalhar com
                             desenvolvimento Web. Tenho realizado cursos de HTML, CSS e Javascript atualmente.
                         </p>           
+                        <a href="https://onedrive.live.com/redir?resid=3823CC3D43318254%2117477&authkey=%21AJvA1GjyAnGNY7o&page=Download" class="button curriculo">Baixe o meu curriculo</a>
                     </div>                                   
                 </div>
             </section>
@@ -124,6 +126,7 @@
                                 <span class="skills__percentage">55%</span>
                             </div>
                         </div>
+
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxs-paint skills__icon'></i>
@@ -136,8 +139,21 @@
                                 <span class="skills__percentage">25%</span>
                             </div>
                         </div>
-                    </div>
-                    
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-expand-horizontal skills__icon'></i>
+                                <span class="skills__name">JIRA/NOTION</span>
+                            </div>
+                            <div class="skills__bar skills__jira">  
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+
+                    </div>                   
                     <div>              
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
@@ -149,17 +165,17 @@
                 <h2 class="section-title">Projetos</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="https://lucascruz772.github.io/brothersburguers.github.io/" class="work__img">
-                        <img src="assets/img/projeto1.png" alt="">
+                    <a href="https://lucascruz772.github.io/brothersburguers.github.io/" target="_blank" class="work__img">
+                        <img src="assets/img/projeto1.png" title = "Projeto 1" alt="Projeto 1">
                     </a>
-                    <a href="https://lucascruz772.github.io/cursohtml5css3.github.io/" class="work__img">
-                        <img src="assets/img/projeto2.png" alt="">
+                    <a href="https://lucascruz772.github.io/cursohtml5css3.github.io/" target="_blank" class="work__img">
+                        <img src="assets/img/projeto2.png" title = "Projeto 2" alt="Projeto 2">
                     </a>
-                    <a href="https://lucascruz772.github.io/curso-javascript.github.io/" class="work__img">
+                    <a href="https://lucascruz772.github.io/curso-javascript.github.io/" target="_blank" class="work__img">
                         <img src="assets/img/Projeto3.png" title="Projeto 3" alt="Projeto 3">
                     </a>
-                    <a href="https://lucascruz772.github.io/ProjetoNutri.github.io/" class="work__img">
-                        <img src="assets/img/projeto4.png" alt="">
+                    <a href="https://lucascruz772.github.io/ProjetoNutri.github.io/" target="_blank" class="work__img">
+                        <img src="assets/img/projeto4.png" title="Projeto 4" alt="Projeto 4">
                     </a>
     <!--              <a href="" class="work__img">
                         <img src="assets/img/work5.jpg" alt="">
@@ -171,7 +187,7 @@
             </section>
 
         <!--===== FOOTER =====-->
-        <footer class="footer">
+        <footer class="footer" id="contact">
            <a href="http://beacons.ai/lucascruz772" target="_blank"><p class="footer__title" title="Clique aqui para mais contatos" style="color: white;">Contatos</p></a> 
             <div class="footer__social">
                 <a href="https://www.facebook.com/lucascruzmiranda" title="Facebook" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
